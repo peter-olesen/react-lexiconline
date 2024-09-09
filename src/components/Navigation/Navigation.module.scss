@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 73px;
+    background: var(--Green);
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    
+    a {
+        color: var(--White);
+        text-decoration: none;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: center;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin: 2rem;
+        }
+    }
+}

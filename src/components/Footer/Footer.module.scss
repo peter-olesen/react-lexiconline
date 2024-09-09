@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: var(--Green);
+    color: var(--White);
+    font-family: 'Karma', sans-serif;
+    margin-top: 6rem;
+
+    .Container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 6rem;
+        margin: 4rem;
+    }
+}

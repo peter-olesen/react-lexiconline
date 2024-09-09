@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Karma:wght@300;400;500;600;700&family=Marck+Script&display=swap');
+
+// font-family: "Karla", sans-serif;
+// font-family: "Marck Script", cursive;
+// font-family: "Karma", serif;
+
+
+
+* {
+  margin: 0;
+
+  --DarkGrey: #5A5A5A;
+  --LightGrey: #F4F4F4;
+  --Grey: #D9D9D9;
+  --Green: #57842A;
+  --Mossy: #42651E;
+  --White: #FFFFFF;
+
+}
+
+body {
+  background: var(--LightGrey);
+}
+
+
+#root {
+  max-width: 1440px;
+}

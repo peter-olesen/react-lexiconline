@@ -1,0 +1,46 @@
+section {
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: -5rem;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 1114px;
+        height: 200px;
+        background: var(--LightGrey);
+        border-radius: 1rem;
+        padding-top: 2rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+        font-weight: normal;
+        color: var(--DarkGrey);
+        margin-bottom: 1.5rem;
+    }
+
+}
+
+input[type=text] {
+    border-top-left-radius: 64px;
+    border-bottom-left-radius: 64px;
+    border: 1px solid var(--Mossy);
+    padding: 0.2rem 1rem;
+    outline: none;
+    width: 500px;
+    height: 48px;
+}
+
+input[type=button] {
+    border-top-right-radius: 64px;
+    border-bottom-right-radius: 64px;
+    background: var(--Green);
+    color: var(--White);
+    border: 1px solid var(--Mossy);
+    width: 150px;
+    height: 56px;
+    font-size: 1rem;
+}
