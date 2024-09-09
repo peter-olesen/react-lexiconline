@@ -6,16 +6,17 @@ export const Main = () => {
 
     const endpoint = "https://api.dictionaryapi.dev/api/v2/entries/en/hello";
     
-      async function fetchData() {
-        try {
-            const res = await fetch(endpoint);
-            const data = await res.json();
-            console.log(data[0]);         
-            setData(data);
-        } catch {
-            console.error("Error fetching data:", error)
+    async function fetchData() {
+    try {
+        const res = await fetch(endpoint);
+        const data = await res.json();
+        // console.log(data);
+        console.log(data[0]);         
+        setData(data);
+        } catch (error) {
+            console.error("Error fetching data:", error);
         }
-      }
+    }
   
     useEffect (() => {    
         fetchData();
